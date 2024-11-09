@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+}
+.full_body{
+    background-color: antiquewhite;
+    display: flex;
+    width: 100vw;
+    padding: 20px;
+}
+.img_grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+.init_flex{
+    width: 60%;
+}
+
+.Order{
+    background-color: white;
+    position: relative;
+    top: -20px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.each_img{
+    width: 100px;
+}
+.order_title{
+    font-size: larger;
+    font-weight: 500;
+}
+.each_order{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.208);
+    padding-left: 10px;
+}
+.each_order_bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: 50%;
+}
+.number{
+    font-weight: 800;
+    color: brown;
+}
+.add{
+    padding: 10px;
+    width: 150px;
+    position: relative;
+    top: -20px;
+    left: 50px;
+    border-radius: 50px;
+}
+button{
+    border: brown;
+}
+.each_img_bottom{
+    width: 200px;
+}
+.total_order{
+    display: flex;
+    justify-content: space-between;
+}
+.total_order_dis{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.total_order_par{
+    width: 80%;
+    background-color: antiquewhite;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.Confirm_order{
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: rgb(190, 60, 60);
+    color: white;
+}
